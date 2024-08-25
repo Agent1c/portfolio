@@ -37,9 +37,6 @@ body{
 
 }
 
-.hero-box-intro{
-    
-}
 
 .hero-box-intro h1{
     font-size: 2.1em;
@@ -176,6 +173,32 @@ section{
     padding: .5em;
     border-bottom: 1px solid #ffd2f648;
     font-size: 1.1em;
+}
+
+/* -----------hero-about------------------ */
+.hero-about{
+    display: flex;
+    background: #ffd2f6;
+    flex-direction: column;
+}
+
+.hero-about img{
+    width: 100%;
+}
+
+.hero-about h1{
+    font-size: 1.7em;
+    padding: .4em;
+}
+
+.hero-about p{
+    margin: .4em;
+    line-height: 1.8;
+    font-size: 1em;
+}
+.profile{
+    margin: .8em;
+    padding: .4em;
 }
 
 /* ----------------------------------------------------- */
