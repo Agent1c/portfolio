@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+*,
+::before,
+::after{
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "Nunito Sans", sans-serif;
+    /* background: url(../bg/pexels-steve-1509534.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff; */
+}
+
+.container{
+    margin: .7em;
+    padding: .1em .5em;
+}
+
+.header{
+    background: #F2F2F2;
+
+}
+
+.hero-top{
+    display: flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid #0761b693;
+
+}
+
+.hero-box-intro{
+    
+}
+
+.hero-box-intro h1{
+    font-size: 2.1em;
+    margin: .8em 0 0 .1em;
+    padding: .1em;
+
+}
+
+.hero-box-intro span{
+    color: #BF0449;
+    font-size: 1em;
+    line-height: normal;
+}
+
+.hero-box-intro p{
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin: .5em;
+    padding: .2em;
+
+}
+
+
+/* ----------------navigation's Settings-------------------- */
+
+nav .nav-list{
+    display: flex;
+    font-size: 1.2em;
+
+}
+
+.nav-list a,
+li {
+    list-style: none;
+    text-decoration: none;
+    margin: .7em;
+}
+
+nav .nav-list a:hover{
+    color: #BF0449;
+}
+
+nav .nav-list a:active{
+    color: #3A5939;
+}
+
+.hero-header{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 3em;
+    font-weight: 500;
+    margin: 0 .3em;
+}
+
+/* ----------------------------------------------------- */
+
+
+/* ---------------Hero Section-------------------------- */
+.hero-hero{
+    display: flex;
+    justify-content: space-between;
+    background: #ffd2f6;
+    border-bottom: 3px solid #bf044936;
+}
+
+.hero-box{
+    /* border: 3px solid #3A5939; */
+    margin: .7em;
+    padding: .5em;
+    width: 500px;
+
+}
+
+
+.hero-box-btn{
+    /* border: 3px solid yellowgreen; */
+    display: flex;
+    justify-content: space-evenly; 
+    margin: .2em .8em;
+    align-items: center;
+    padding: 1.8em 0 0 0;
+}
+
+button{
+    /* margin: 0 auto */
+    padding: .7em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 25px;
+    border-style: none;
+    background: #BF0449;
+    color: #fcfafb;
+}
+
+.hero-box-img img{
+    border-radius: 25% 45% 85%;
+    margin-left: 45px;
+    padding-bottom: 2.4em;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    padding-bottom: .7em;
+    
+}
+
+.skills li{
+    padding: .7em 1em;
+    font-size: 1em;
+    font-weight: 500;
+    border-radius: 25px;
+    border-style: none;
+    background: #BF0449;
+    color: #fcfafb;
+}
+
+section{
+    background: #BF0449;
+    color: #ffffff;
+
+}
+
+.hero-summary{
+    padding: .4em .9em;
+    
+}
+
+.hero-summary h3{
+    font-size: 1.4em;
+}
+
+.hero-summary-text{
+    margin: .7em;
+    padding: .5em;
+    border-bottom: 1px solid #ffd2f648;
+    font-size: 1.1em;
+}
+
+/* ----------------------------------------------------- */
+.footer{
+    background: #BF0449;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-social p{
+    color: #fcfafb;
+}
+
+.ftr-social{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ftr-social a:hover{
+    opacity: 65%;
+}
+
+
+.ftr-social li,
+a{
+    text-decoration: none;
+    list-style: none;
+}
