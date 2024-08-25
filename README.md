@@ -19,7 +19,7 @@ This project is a `Portfolio` designed using HTML and CSS. The goal of this proj
 - **Feature 3**: Not yet a responsive for mobile, only for desktop.
 
 ## License 
-This project is licensed under the `FreakyCoding` License - see the [LICENSE](../portfolio/asserts/lisence/Freaky-Coding-Lisence.md) file for details. 
+This project is licensed under the `FreakyCoding` License - see the [LICENSE](./asserts/lisence/Freaky-Coding-Lisence.md) file for details. 
  
 ## Acknowledgments 
 - Pure HTML and CSS 
@@ -27,7 +27,7 @@ This project is licensed under the `FreakyCoding` License - see the [LICENSE](..
 - Colors: Google colors and my own
  
 ## Contact 
-For any inquiries, please reach out to `Simon Ndlovu` on my email [Mail](simon.ndlovu1sa@gmail.coms). 
+For any inquiries, please reach out to `Simon Ndlovu` on my email [Mail](simon.ndlovu1sa@gmail.com). 
  
 --- 
  
